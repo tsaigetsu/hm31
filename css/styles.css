@@ -1,0 +1,168 @@
+:root {
+    --paragraf-text-color: #F4F4FD;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+
+.wrapper {}
+
+.head {}
+
+.navigation {}
+
+.logo {
+    color: var(--IRIS, #4D5AE5);
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    /* 116.667% */
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.studio {
+    font-family: 'Raleway', sans-serif;
+    color: #2e2f42;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.16em;
+    /* 116.667% */
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+}
+
+.page-list {}
+
+.page-list-item {
+    color: #2e2f42;
+    /* Body Medium */
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5em;
+    /* 150% */
+    letter-spacing: 0.02em;
+}
+
+.page-list-item:hover,
+.page-list-item:focus {
+    color: #404bbf;
+}
+
+.adress {
+    font-style: normal;
+}
+
+.adress-list {
+    font-style: normal;
+}
+
+.adress-item {
+    color: #434455;
+    /* Body */
+    font-size: 16px;
+    line-height: 1.5em;
+    /* 150% */
+    letter-spacing: 0.02em;
+}
+
+.adress-item:hover,
+.adress-item:focus {
+    color: #404bbf;
+}
+
+.main {}
+
+.hero {
+    background-color: #2e2f42;
+}
+
+.main-heading {
+    color: var(--WHITE, #FFF);
+    text-align: center;
+    /* Header 1 */
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07em;
+    /* 107.143% */
+    letter-spacing: 0.02em;
+}
+
+.button-order {
+    color: var(--WHITE, #FFF);
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    /* Button Text */
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5em;
+    /* 150% */
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+
+.button-order:hover,
+.button-order:focus {
+    background-color: #404BBF
+}
+
+.pluses {}
+
+.second-heading {
+    text-align: center;
+    color: #2e2f42;
+    /* Header 2 */
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11em;
+    /* 111.111% */
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.nice-homework {
+    background-color: #FFFFFF;
+}
+
+.list-pluses {}
+
+.third-heading {
+    color: #2e2f42;
+    /* Header 3 */
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2em;
+    /* 120% */
+    letter-spacing: 0.02em;
+}
+
+.paragraf {
+    /* Body */
+    font-size: 16px;
+    line-height: 1.5em;
+    /* 150% */
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.our-team {
+    background-color: #F4F4FD;
+}
+
+.our-team-image {}
+
+.footer {
+    background-color: #2e2f42;
+}
+
+.footer .studio {
+    color: #f4f4fd;
+}
+
+.footer .paragraf {
+    color: var(--paragraf-text-color)
+}
