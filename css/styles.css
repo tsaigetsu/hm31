@@ -191,7 +191,7 @@ img {
 }
 
 .list-li {
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 3 * 24px) / 4)
 }
 
 .third-heading {
@@ -260,7 +260,7 @@ img {
     padding: 100px 0;
 }
 
-.footer .logo {
+.logo-footer {
     display: inline-block;
     margin-bottom: 16px;
 }
