@@ -20,7 +20,10 @@ img {
     border-bottom: 1px solid #e7e9fc
 }
 
-.wrap {
+.wrap1,
+.wrap2,
+.wrap3,
+.wrap4 {
     display: flex;
 }
 
