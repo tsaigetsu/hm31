@@ -202,7 +202,7 @@ img {
     gap: 24px;
 }
 
-.list-li {
+.li-list {
     flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
