@@ -234,6 +234,11 @@ img {
     padding: 120px 0;
 }
 
+.list-team {
+    display: flex;
+    gap: 24px;
+}
+
 .team {
     border-radius: 0px 0px 4px 4px;
 }
